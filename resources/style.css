@@ -79,3 +79,43 @@ Mission
     width: 1200px;
     padding: 20px;
 }
+
+
+/*
+Tea of the Month
+*/
+
+.featured {
+    width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.featured-tea-month {
+    text-align: center;
+}
+
+.featured-tea-month h2 {
+    margin-bottom: 15px;
+}
+
+.featured-tea-month h4 {
+    margin-bottom: 40px;
+}
+
+.featured-tea-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-tea-image img {
+    width: 300px;
+    height: 200px;
+}
+
+.featured-tea-item h4 {
+    text-align: center;
+    margin-top: 10px;
+}
