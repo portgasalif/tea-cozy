@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: rgb(255, 245, 238);
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    color: cadetblue;
+}
+
+.menu a:active {
+    color: rgb(255, 255, 255);
+}
