@@ -119,3 +119,57 @@ Tea of the Month
     text-align: center;
     margin-top: 10px;
 }
+
+
+/*
+Locations
+*/
+.locations {
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.locations img.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+    object-fit: cover;
+}
+
+.locations h2 {
+    text-align: center;
+    margin: 85px 0 15px 0;
+}
+
+.locations-container {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.location-item {
+    background-color: black;
+    width: 300px;
+    padding: 20px;
+
+}
+
+.location-item h3 {
+    padding-bottom: 15px;
+}
+
+
+.location-item p {
+    padding: 5px 0;
+    line-height: 1.6;
+
+}
